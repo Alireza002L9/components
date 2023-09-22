@@ -2,6 +2,7 @@ import './App.css'
 import Something from './components/something'
 import Form from './components/form'
 import Navbar from './components/navbar'
+import ContactProfile from './components/contactProfile'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Something />
       <Form />
+      <ContactProfile/>
     </div>
   )
 }

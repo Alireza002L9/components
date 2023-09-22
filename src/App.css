@@ -2,3 +2,16 @@ body {
     padding: 1rem;
     background-color: #ede9fe;
 }
+tr:nth-child(even){
+    background-color: #fdf4ff;
+}
+
+td, th {
+    padding: .75rem;
+}
+td {
+    cursor: pointer;
+}
+tr:hover {
+    background: #eff6ff;
+}
