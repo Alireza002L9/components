@@ -1,3 +1,4 @@
+import Inputs from "./InputComponent"
 const Form = ()=> {
     const name = "Enter your name:"
     const email = "Enter your Email address:" 
@@ -7,6 +8,7 @@ const Form = ()=> {
     return(
         <div>
             <form action="" className=" grid bg-white rounded-lg shadow-lg p-4 w-4/12">
+                <h3 className=" text-center my-4 font-bold">Registeration Form</h3>
                 <Inputs label={name} type="text" className={className} />
                 <Inputs label={email} type="email" className={className} />
                 <Inputs label={password} type="password" className={className} />
@@ -16,13 +18,6 @@ const Form = ()=> {
     )
 }
 
-const Inputs = ({label, type, className})=> {
-    return(
-        <label className="grid mb-2 ">
-        {label} <br />
-        <input type={type} className={className} />
-        </label>
-    )
-}
+
 
 export default Form;
